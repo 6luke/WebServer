@@ -6,6 +6,6 @@ cmake_minimum_required (VERSION 3.8)
 project ("WebServer")
 
 # 将源代码添加到此项目的可执行文件。
-add_executable (WebServer "WebServer.cpp" "WebServer.h" "tcp_server.cpp")
+add_executable (WebServer "WebServer.cpp" "WebServer.h" "tcp_server.cpp" "http_server.h" "http_server.cpp")
 
 # TODO: 如有需要，请添加测试并安装目标。
